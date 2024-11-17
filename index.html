@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/team-06/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-06/assets/index-DEY1T_Rt.css">
+    <link rel="stylesheet" crossorigin href="/team-06/assets/index-0X2bLcDE.css">
   </head>
   <body>
     <header class="header">
@@ -311,7 +311,40 @@
   </div>
 </section>
 
-      <div class="container">Hello World! I'm Contacts</div>
+      <div class="container contact-us-container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-main">
+        <div class="contact-us-menu">
+            <p class="contact-us-menu-text">Please use the form below to contact us. Enter your name, email, phone, and
+                message and we'll get back to you shortly.</p>
+            <form class="contact-us-form">
+                <input type="text" name="contact-us-user-name" id="contact-us-user-name" class="contact-us-input"
+                    placeholder="Name" required>
+
+                <input type="email" name="contact-us-user-email" id="contact-us-user-email" class="contact-us-input"
+                    placeholder="Email" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+
+                <input type="tel" name="contact-us-user-tel" id="contact-us-user-tel" class="contact-us-input"
+                    placeholder="+380" required pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" (+380-XX-XXX-XX-XX)>
+
+                <textarea name="contact-us-user-comment" id="contact-us-user-comment" class="contact-us-comment"
+                    placeholder="Comment"></textarea>
+            </form>
+            <button type="submit" class="contact-us-btn-submit">Send</button>
+        </div>
+        <div class="contact-us-photo">
+            <picture>
+                <source srcset="/team-06/assets/contact-us-tel-ClYhUr10.jpg 1x, /team-06/assets/contact-us-tel2x-CRU-XBAv.jpg 2x"
+                    media="(max-width:767px)" />
+                <source srcset="/team-06/assets/contact-us-lap-DQXaWgkf.jpg 1x, /team-06/assets/contact-us-lap2x-CKQOMFkv.jpg 2x"
+                    media="(min-width:768px)" />
+                <source srcset="/team-06/assets/contact-us-dex-Eexhxzn9.jpg 1x, /team-06/assets/contact-us-dex2x-kW53-Qw6.jpg 2x"
+                    media="(min-width:1280px)" />
+                <img src="/team-06/assets/contact-us-tel-ClYhUr10.jpg" alt="Watch on the rock" class="contact-us-image" />
+            </picture>
+        </div>
+    </div>
+</div>
     </main>
 
     <footer class="footer">
