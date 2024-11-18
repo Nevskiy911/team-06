@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 .container {
+=======
+.advertisement-container {
+>>>>>>> Stashed changes
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -59,6 +63,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .advertisement {
     padding: 80px 64px;
     background-image: url(../img/advertisement/advertisement-bg-tab.webp);
@@ -71,6 +80,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .advertisement-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .advertisement {
     display: flex;
     gap: 140px;
