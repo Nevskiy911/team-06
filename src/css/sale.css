@@ -1,4 +1,6 @@
 .sale {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .sale-title {
@@ -56,7 +58,7 @@
   border-radius: 30px;
   background-color: #3350e9;
   padding-bottom: 48px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .sale-tag {
@@ -137,6 +139,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .sale-watch-item {
     display: flex;
     margin-bottom: 40px;
@@ -171,7 +178,7 @@
 
   .sale-salebig {
     border-radius: 50px;
-    /* margin-bottom: 20px; */
+    margin-bottom: unset;
     padding: 80px 112px;
   }
 
@@ -180,6 +187,23 @@
     line-height: 1.125;
     padding: 60px 208px 10px 60px;
     /* width: 240px; */
+  }
+
+  .sale-tag {
+    padding-left: 60px;
+  }
+
+  .sale-price {
+    padding-left: 60px;
+  }
+
+  .sale-text {
+    padding-left: 60px;
+  }
+
+  .sale-list-filter {
+    padding-left: 60px;
+    max-width: 424px;
   }
 
   .price-new {
@@ -201,10 +225,6 @@
     padding-bottom: 40px;
   }
 
-  .sale-list-filter {
-    max-width: 398px;
-  }
-
   .sale-list-filter-item {
     font-size: 14px;
     line-height: 1.29;
@@ -212,13 +232,16 @@
 
   .sale-subtitle-container {
     border-radius: 50px;
-
     padding-bottom: 60px;
-    margin-bottom: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .sale {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .sale-salebig {
     padding: 80px 50px;
   }
@@ -231,27 +254,12 @@
     padding: 60px 81px 10px 60px;
   }
   .sale-subtitle-container {
+    height: 558px;
     width: 530px;
     margin-left: 40px;
   }
 
   .sale-watch-item {
     margin-bottom: unset;
-  }
-  .sale-tag {
-    padding-left: 60px;
-  }
-
-  .sale-price {
-    padding-left: 60px;
-  }
-
-  .sale-text {
-    padding-left: 60px;
-  }
-
-  .sale-list-filter {
-    padding-left: 60px;
-    max-width: 424px;
   }
 }
