@@ -133,6 +133,10 @@
 
 
 @media screen and (min-width: 768px) {
+  .footer-container {
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
 
   .footer {
     padding: 40px 40px 28px 40px;
@@ -196,6 +200,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-container {
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+
   .footer {
       position: relative;
   }
@@ -203,6 +212,7 @@
       position: absolute;
       top: 40px;
       left: 306px;
+      margin-bottom: 126px;
   }
 
   .footer-top {
