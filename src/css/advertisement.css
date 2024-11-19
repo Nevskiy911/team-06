@@ -58,6 +58,12 @@
   color: #fbfbfb;
 }
 
+.advertisement-button:hover,
+.advertisement-button:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
 @media screen and (min-width: 768px) {
   .advertisement-container {
     padding-top: 40px;
