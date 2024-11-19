@@ -7,7 +7,7 @@
 }
 
 .about-wrapper-text {
-    padding: 20px 40px;
+    padding: 40px 20px 55px 20px;
     border-radius: 30px;
     background: #f3f3f3;
 }
@@ -32,7 +32,7 @@
 }
 
 .about-descr {
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .about-link {
@@ -73,7 +73,7 @@
     }
 
     .about-wrapper-text {
-        padding: 80px 60px;
+        padding: 80px 60px 95px 60px;
         border-radius: 50px;
     }
 
@@ -88,6 +88,10 @@
         font-size: 16px;
         line-height: 1.25;
         max-width: 584px;
+    }
+
+    .about-descr {
+        margin-bottom: 75px;
     }
 
     .about-img {
@@ -106,8 +110,6 @@
     }
 
     .about-wrapper-text {
-        padding: 80px 60px;
-        border-radius: 50px;
         background: #f3f3f3;
     }
 
@@ -117,6 +119,10 @@
         line-height: 0.92;
         letter-spacing: -0.02em;
         color: #0c0c0c;
+    }
+
+    .about-descr {
+        margin-bottom: 55px;
     }
 
     .about-img {
