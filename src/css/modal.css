@@ -22,13 +22,13 @@
 }
 
 .container-mobile {
-    position: relative;
     padding: 20px 20px 40px;
     height: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-between;
     background-image: url(/img/modal/menu-mob-bg-1x.jpg);
+    position: relative;
 }
 
 @media screen and (min-resolution: 2dppx),
@@ -68,8 +68,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
     align-items: center;
-
+    flex: 1;
+    text-align: center;
 }
 
 .current::after {
@@ -93,6 +95,7 @@
     display: flex;
     gap: 10px;
     justify-content: center;
+    text-align: center;
 }
 
 .mobile-social-item {
@@ -104,8 +107,7 @@
 
 .mobile-social-link {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 100%;
     height: 100%;
 }
