@@ -90,6 +90,10 @@
         max-width: 584px;
     }
 
+    .about-descr {
+        margin-bottom: 75px;
+    }
+
     .about-img {
         border-radius: 50px;
     }
@@ -115,6 +119,10 @@
         line-height: 0.92;
         letter-spacing: -0.02em;
         color: #0c0c0c;
+    }
+
+    .about-descr {
+        margin-bottom: 55px;
     }
 
     .about-img {
