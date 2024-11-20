@@ -103,6 +103,10 @@
     border-radius: 10px;
     width: 34px;
     height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .mobile-social-link {
@@ -110,6 +114,8 @@
     text-align: center;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile-social-icon {
@@ -128,6 +134,12 @@
     .mobile-menu-close {
         width: 40px;
         height: 40px;
+        top: 26px;
+        right: 36px;
+    }
+
+    .mobile-list-link {
+        gap: 32px;
     }
 
     .mobile-social-item {
