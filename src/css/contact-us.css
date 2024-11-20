@@ -45,15 +45,17 @@
     transition: border-color 200ms ease;
 }
 
-.contact-us-.contact-us-input {
+.contact-us-input:hover {
     border-color: #3350e9;
+    outline: none;
 }
 
-.contact-us-.contact-us-input {
+.contact-us-input:focus {
     border-color: #3350e9;
+    outline: none;
 }
 
-.contact-us-input:focus .contact-us-input::placeholder {
+.contact-us-input::placeholder {
     font-size: 14px;
     line-height: 1.28;
     color: #0c0c0c;
@@ -71,12 +73,23 @@
     border-radius: 12px;
     padding: 12px 14px;
     margin-bottom: 28px;
+    transition: border-color 200ms ease;
 }
 
-.contact-us-comment:focus .contact-us-comment::placeholder {
+.contact-us-comment::placeholder {
     font-size: 14px;
     line-height: 1.28;
     color: #0c0c0c;
+}
+
+.contact-us-comment:hover {
+    border-color: #3350e9;
+    outline: none;
+}
+
+.contact-us-comment:focus {
+    border-color: #3350e9;
+    outline: none;
 }
 
 .contact-us-btn-submit {
@@ -149,6 +162,7 @@
 
     .contact-us-input {
         height: 52px;
+        padding: 16px;
     }
 
     .contact-us-btn-submit {
@@ -185,6 +199,10 @@
         width: 580px;
         margin-bottom: 0;
         padding: 50px 60px;
+    }
+
+    .contact-us-input {
+        padding: 16px 18px;
     }
 
 }
