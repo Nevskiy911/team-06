@@ -7,7 +7,6 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 0.95;
-  letter-spacing: -0.02em;
   color: #0c0c0c;
   min-width: 335px;
   min-height: 115px;
@@ -17,12 +16,8 @@
   color: #3350e9;
 }
 .hero-text {
-    opacity: 0.7;
-  font-weight: 500;
-  font-size: 14px;
+  opacity: 0.7;
   line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
   min-width: 335px;
   min-height: 72px;
@@ -63,20 +58,20 @@
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 28px;
-    max-width: 335px;
+    min-width: 335px;
     min-height: 44px;
 }
 .hero-link {
   background-color: transparent;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
 }
+.hero-link:hover{
+    color: #3350e9;
+}
 .hero-image {
+    min-width: 335px;
 }
 .wrapper-title{
     margin-bottom: 28px;
@@ -107,7 +102,7 @@
         flex-direction: column;
         min-width: 136px;
         max-height: 260px;
-        gap: 243px;
+        gap: 235px;
     }
     .hero-image-list{
         align-self: self-start;
@@ -117,7 +112,9 @@
         min-width: 56px;
         min-height: 56px;
     }
-
+    .hero-link{
+        font-size: 20px;
+    }
     .hero-image-list li:nth-child(1){
         left: 0;
         z-index: 1;
@@ -156,7 +153,7 @@
     .wrapper-hero {
         min-width: 146px;
         max-height: 269px;
-        gap: 249px
+        gap: 244px
     }
     .hero-people-img{
         min-width: 60px;
