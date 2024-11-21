@@ -1,6 +1,5 @@
 .sale {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 
 .sale-title {
@@ -38,7 +37,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   margin-bottom: 20px;
-  padding: 50px 50px;
+  padding: 50px;
 }
 
 .sale-subtitle {
@@ -112,8 +111,7 @@
 
 @media screen and (min-width: 768px) {
   .sale {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
 
   .sale-watch-item {
@@ -156,7 +154,7 @@
 
   .sale-subtitle-container {
     border-radius: 50px;
-    padding: 60px 60px;
+    padding: 60px;
   }
 
   .sale-subtitle {
@@ -197,8 +195,7 @@
 
 @media screen and (min-width: 1280px) {
   .sale {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
 
   .sale-salebig {

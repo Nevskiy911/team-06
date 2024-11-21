@@ -28,8 +28,6 @@
     margin-bottom: 28px;
 }
 
-.contact-us-form {}
-
 .contact-us-input {
     font-size: 14px;
     line-height: 1.28;
@@ -42,14 +40,10 @@
     border-radius: 12px;
     padding: 12px 14px;
     margin-bottom: 18px;
-    transition: border-color 200ms ease;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-us-input:hover {
-    border-color: #3350e9;
-    outline: none;
-}
-
+.contact-us-input:hover,
 .contact-us-input:focus {
     border-color: #3350e9;
     outline: none;
@@ -73,7 +67,7 @@
     border-radius: 12px;
     padding: 12px 14px;
     margin-bottom: 28px;
-    transition: border-color 200ms ease;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-us-comment::placeholder {
@@ -82,11 +76,7 @@
     color: #0c0c0c;
 }
 
-.contact-us-comment:hover {
-    border-color: #3350e9;
-    outline: none;
-}
-
+.contact-us-comment:hover,
 .contact-us-comment:focus {
     border-color: #3350e9;
     outline: none;
@@ -106,13 +96,10 @@
     text-align: center;
     color: #fbfbfb;
     border: none;
-    transition: background-color 200ms ease;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-us-btn-submit:hover {
-    background-color: #1f3cd4;
-}
-
+.contact-us-btn-submit:hover,
 .contact-us-btn-submit:focus {
     background-color: #1f3cd4;
 }
@@ -204,5 +191,4 @@
     .contact-us-input {
         padding: 16px 18px;
     }
-
 }

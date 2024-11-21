@@ -65,8 +65,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .bottom-section {
+    padding-bottom: 50px;
+  }
+
   .header-container {
-    padding: 50px 0;
+    padding: 30px 0;
   }
 
   .header-logo {
@@ -99,7 +103,7 @@
     background-color: #3350e9;
     left: 50%;
     transform: translateX(-50%);
-    top: calc(100% + 5px);
+    top: calc(100% + 2px);
   }
 
   .header-nav-link:hover::after {
@@ -111,7 +115,7 @@
     background-color: #3350e9;
     left: 50%;
     transform: translateX(-50%);
-    top: calc(100% + 5px);
+    top: calc(100% + 2px);
   }
 
   .burger {
@@ -145,14 +149,17 @@
     justify-content: center;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .header-address-svg {
     fill: #0c0c0c;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .header-address-link:hover .header-address-svg,
   .header-address-link:focus .header-address-svg {
     fill: #3350e9;
   }
+
   .header-address-link:hover,
   .header-address-link:focus {
     border: 1px solid rgba(51, 80, 233, 0.1);
